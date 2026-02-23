@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="logo.svg" width="128" height="128" alt="ScribeMini Logo">
+</p>
+
 # ScribeMini
 
 A minimal macOS menu bar app for voice transcription with AI enhancement.
@@ -23,7 +27,7 @@ The transcribed text is automatically typed at your cursor position.
 
 ## Requirements
 
-- macOS 14+
+- macOS 26+
 - API key for your chosen transcription service
 
 ## Issues

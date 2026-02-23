@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024">
+  <defs>
+    <!-- Deep elegant background -->
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0B132B" />
+      <stop offset="100%" stop-color="#1C2541" />
+    </linearGradient>
+    
+    <!-- Premium vibrant voice glow -->
+    <linearGradient id="accent" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00F2FE" />
+      <stop offset="100%" stop-color="#4FACFE" />
+    </linearGradient>
+    
+    <linearGradient id="capsuleGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F8FAFC" />
+      <stop offset="100%" stop-color="#CBD5E1" />
+    </linearGradient>
+
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="16" stdDeviation="32" flood-color="#000000" flood-opacity="0.5"/>
+    </filter>
+    
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="15" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <!-- Base App Icon Shape -->
+  <rect width="1024" height="1024" rx="225" fill="url(#bg)" />
+  
+  <!-- Subtle decorative soundwaves in background -->
+  <g opacity="0.1" fill="url(#accent)">
+    <rect x="800" y="400" width="30" height="224" rx="15" />
+    <rect x="870" y="450" width="30" height="124" rx="15" />
+    <rect x="194" y="400" width="30" height="224" rx="15" />
+    <rect x="124" y="450" width="30" height="124" rx="15" />
+  </g>
+
+  <!-- Central Graphic Group -->
+  <g transform="translate(512, 480)" filter="url(#shadow)">
+    
+    <!-- Base stand -->
+    <path d="M-90,300 L90,300" stroke="url(#capsuleGrad)" stroke-width="40" stroke-linecap="round" />
+    <!-- Vertical neck -->
+    <path d="M0,200 L0,300" stroke="url(#capsuleGrad)" stroke-width="40" />
+    
+    <!-- U-shaped microphone holder -->
+    <!-- Arc goes from the left (x=-150), dips to y=200, ends at right (x=150) -->
+    <path d="M-150,60 C-150,150 -75,200 0,200 C75,200 150,150 150,60" fill="none" stroke="url(#capsuleGrad)" stroke-width="40" stroke-linecap="round" />
+    
+    <!-- Colorful glowing sound waves directly attached to microphone -->
+    <g filter="url(#glow)">
+      <!-- Left waves -->
+      <rect x="-190" y="-120" width="28" height="140" rx="14" fill="url(#accent)" />
+      <rect x="-250" y="-70" width="28" height="60" rx="14" fill="url(#accent)" />
+      
+      <!-- Right waves -->
+      <rect x="162" y="-120" width="28" height="140" rx="14" fill="url(#accent)" />
+      <rect x="222" y="-70" width="28" height="60" rx="14" fill="url(#accent)" />
+    </g>
+    
+    <!-- Central Microphone / Pen capsule -->
+    <rect x="-70" y="-220" width="140" height="300" rx="70" fill="url(#capsuleGrad)" />
+
+    <!-- Details etched into the capsule to resemble a fountain pen nib -->
+    <!-- Center slit of the nib -->
+    <path d="M0,-120 L0,40" stroke="#0B132B" stroke-width="12" stroke-linecap="round" />
+    <!-- Breathe hole of the nib -->
+    <circle cx="0" cy="45" r="16" fill="#0B132B" />
+    
+    <!-- Side stylistic lines on the "nib" -->
+    <path d="M-30,-20 L-20,-70" stroke="#0B132B" stroke-width="8" stroke-linecap="round" opacity="0.4" />
+    <path d="M30,-20 L20,-70" stroke="#0B132B" stroke-width="8" stroke-linecap="round" opacity="0.4" />
+    
+  </g>
+</svg>

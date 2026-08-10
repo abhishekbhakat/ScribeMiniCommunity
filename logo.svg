@@ -1,78 +1,12 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024">
-  <defs>
-    <!-- Deep elegant background -->
-    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#0B132B" />
-      <stop offset="100%" stop-color="#1C2541" />
-    </linearGradient>
-    
-    <!-- Premium vibrant voice glow -->
-    <linearGradient id="accent" x1="0%" y1="100%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#00F2FE" />
-      <stop offset="100%" stop-color="#4FACFE" />
-    </linearGradient>
-    
-    <linearGradient id="capsuleGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#F8FAFC" />
-      <stop offset="100%" stop-color="#CBD5E1" />
-    </linearGradient>
-
-    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
-      <feDropShadow dx="0" dy="16" stdDeviation="32" flood-color="#000000" flood-opacity="0.5"/>
-    </filter>
-    
-    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
-      <feGaussianBlur stdDeviation="15" result="blur" />
-      <feComposite in="SourceGraphic" in2="blur" operator="over" />
-    </filter>
-  </defs>
-
-  <!-- Base App Icon Shape -->
-  <rect width="1024" height="1024" rx="225" fill="url(#bg)" />
-  
-  <!-- Subtle decorative soundwaves in background -->
-  <g opacity="0.1" fill="url(#accent)">
-    <rect x="800" y="400" width="30" height="224" rx="15" />
-    <rect x="870" y="450" width="30" height="124" rx="15" />
-    <rect x="194" y="400" width="30" height="224" rx="15" />
-    <rect x="124" y="450" width="30" height="124" rx="15" />
-  </g>
-
-  <!-- Central Graphic Group -->
-  <g transform="translate(512, 480)" filter="url(#shadow)">
-    
-    <!-- Base stand -->
-    <path d="M-90,300 L90,300" stroke="url(#capsuleGrad)" stroke-width="40" stroke-linecap="round" />
-    <!-- Vertical neck -->
-    <path d="M0,200 L0,300" stroke="url(#capsuleGrad)" stroke-width="40" />
-    
-    <!-- U-shaped microphone holder -->
-    <!-- Arc goes from the left (x=-150), dips to y=200, ends at right (x=150) -->
-    <path d="M-150,60 C-150,150 -75,200 0,200 C75,200 150,150 150,60" fill="none" stroke="url(#capsuleGrad)" stroke-width="40" stroke-linecap="round" />
-    
-    <!-- Colorful glowing sound waves directly attached to microphone -->
-    <g filter="url(#glow)">
-      <!-- Left waves -->
-      <rect x="-190" y="-120" width="28" height="140" rx="14" fill="url(#accent)" />
-      <rect x="-250" y="-70" width="28" height="60" rx="14" fill="url(#accent)" />
-      
-      <!-- Right waves -->
-      <rect x="162" y="-120" width="28" height="140" rx="14" fill="url(#accent)" />
-      <rect x="222" y="-70" width="28" height="60" rx="14" fill="url(#accent)" />
-    </g>
-    
-    <!-- Central Microphone / Pen capsule -->
-    <rect x="-70" y="-220" width="140" height="300" rx="70" fill="url(#capsuleGrad)" />
-
-    <!-- Details etched into the capsule to resemble a fountain pen nib -->
-    <!-- Center slit of the nib -->
-    <path d="M0,-120 L0,40" stroke="#0B132B" stroke-width="12" stroke-linecap="round" />
-    <!-- Breathe hole of the nib -->
-    <circle cx="0" cy="45" r="16" fill="#0B132B" />
-    
-    <!-- Side stylistic lines on the "nib" -->
-    <path d="M-30,-20 L-20,-70" stroke="#0B132B" stroke-width="8" stroke-linecap="round" opacity="0.4" />
-    <path d="M30,-20 L20,-70" stroke="#0B132B" stroke-width="8" stroke-linecap="round" opacity="0.4" />
-    
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 88.3 88.3">
+<!-- SVG created with Arrow, by QuiverAI (https://quiver.ai) -->
+  <style type="text/css">.cls-0 {fill:#000000;}
+.cls-1 {fill:#FFFFFF;}</style>
+  <rect class="cls-0" width="88.3" height="88.3" rx="10" ry="10"/>
+  <g transform="translate(-19.2, 1.3)">
+    <path class="cls-1" d="m37 62.9c0.5 0.5 1.2 1.3 2.3 1.3l1.2 0.1 0.1 0.2c0-2.8 1.1-2.5 4.3-2.8 3.5-0.3 13.6-1.2 19.5-5.1 1.7-1 3.2-2 4.5-3.6l1.2 2.7c1-6.3 3.2-8.6 3.1-12s-1.6-3.2-2.5-3.3c-1.1-0.2-2.3-1.5-2.7-4.8s-2.5-6.2-4.4-8.9c-0.5-1.1 8.3-8.5 12.8-12.4 4.3-3.5 17.1-13.2 18-14.3-25.2 0.4-33.9 8-37.3 11-2.8 2.6-6.6 6.2-6.5 11.6 0.2 6.5 5.9 12.4 8.1 14.9l1.4 1.7c-1.1-0.1-3.2-1-4.6-2.1-7.8 9.4-13.2 16.8-18.9 25.5l0.4 0.3z"/>
+    <path class="cls-1" d="m94.4 0.2c-6.9 6.6-18.1 16.8-28.4 27.4 1.7 1.4 6.3 7.4 6.4 10.1 0.5 0.1 3.7-2.3 3.7-2.4 0.1 1.9-2.1 5.1-2.2 5.2 2.1-1 11.4-8.6 14.2-11.9 0.7-0.5 1.4-2-1.9-3.3l-3.9-1 5.2-1.4v-0.1c-1.2 0-3.1-0.8-3.9-1.7 4-1.1 6.6-2.9 9.9-5.6 0.5-0.4 0.7-0.8 0.8-1.2 0.2-1.2 0.3-11.7 0.1-14.1z"/>
+    <path class="cls-1" d="m47.9 23.5c-2.6 3.2-5.8 5.8-6.6 10.1-0.6 3.4-0.3 10.6-0.4 10.7-2.1-2.4-2.1-6.4-2.1-9.1-3 5.8-6.8 14.4-4 23.8 0.4 1.5-1.3 3.4-1 3.8l0.3 0.1c5.4-8.7 13.5-18.3 20.2-26.8-2.4-2.8-5.9-8.2-6.4-12.6z"/>
+    <path class="cls-1" d="m32.7 65.5c-1.6 2.9-5.4 4.6-5.5 4.5 0.4 6 0.4 7.6-1.8 15.1l5.3-9.2c-1-1.4 0.3-3.7 2.1-2.5 1.5 1.2 0.3 3.4-1.5 2.9l-5.4 9.2h0.1c3.8-4.1 7.4-6.8 11.9-8.5 0.4 0-0.2-5.5 1.5-7.3 0.4-0.1-6.2-4.5-6.7-4.2z"/>
   </g>
 </svg>

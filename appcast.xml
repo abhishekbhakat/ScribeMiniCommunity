@@ -4,5 +4,17 @@
     <title>ScribeMini</title>
     <description>Most recent changes for ScribeMini.</description>
     <language>en</language>
+    <item>
+      <title>Version 2.2.0 (Build 4)</title>
+      <pubDate>Sun, 16 Aug 2026 16:11:51 +0530</pubDate>
+      <sparkle:version>4</sparkle:version>
+      <sparkle:shortVersionString>2.2.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<ul><li>Auto-update via Sparkle — new releases install in place</li><li>EdDSA-signed updates</li></ul>]]></description>
+      <enclosure url="https://github.com/abhishekbhakat/ScribeMiniCommunity/releases/download/2.2.0/ScribeMini-2.2.0-macOS-universal.dmg"
+                 type="application/octet-stream"
+                 sparkle:edSignature="MXSB7RXlQbyRpiKs+c6s/SwdhZJfspX2G70nPQzrBONfobiRyiywYpqtuGRxunP/ElgzEPffTZ1y07kZuBj+Aw=="
+                 length="3401432" />
+    </item>
   </channel>
 </rss>

@@ -5,6 +5,19 @@
     <description>Most recent changes for ScribeMini.</description>
     <language>en</language>
     <item>
+      <title>Version 2.3.1 (Build 6)</title>
+      <pubDate>Mon, 26 Oct 2026 20:10:00 +0000</pubDate>
+      <sparkle:version>6</sparkle:version>
+      <sparkle:shortVersionString>2.3.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+      <description><![CDATA[<ul><li>Copyable AI errors (Copy button plus Copy Error action)</li><li>Clear warning when model uses :batch tier (unsupported on realtime endpoints)</li><li>ARM64-only build system (Xcode 27 dropped Intel)</li></ul>]]></description>
+      <enclosure url="https://github.com/abhishekbhakat/ScribeMiniCommunity/releases/download/2.3.1/ScribeMini-2.3.1-macOS-arm64.dmg"
+                 type="application/octet-stream"
+                 sparkle:edSignature="gvbPpRQijJjfyj3YBpdZFnCF+y9W23iD8Pak0EvggMF+n1FhH4HxK3Wf+yXC9ihyf18ON0FSY3ZUxaCC7KI6DA=="
+                 length="2317834" />
+    </item>
+    <item>
       <title>Version 2.3.0 (Build 5)</title>
       <pubDate>Mon, 26 Oct 2026 12:00:00 +0000</pubDate>
       <sparkle:version>5</sparkle:version>

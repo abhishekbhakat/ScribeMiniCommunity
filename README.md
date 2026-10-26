@@ -63,7 +63,7 @@ Optional, and independent of each other:
 - **Enhance quick transcription** — polish dictation before typing it into the focused app
 - **Generate meeting summaries** — powers the Generate Summary button in the Meetings browser
 
-Providers: OpenAI (Responses API or Chat Completion), or Anthropic (Messages API).
+Providers: OpenAI (Responses API or Chat Completion), Anthropic (Messages API), or Gemini (generateContent). All four formats work through OpenRouter.
 
 ### Speaker Profiles
 

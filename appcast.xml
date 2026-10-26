@@ -10,6 +10,7 @@
       <sparkle:version>5</sparkle:version>
       <sparkle:shortVersionString>2.3.0</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
       <description><![CDATA[<ul><li>Gemini AI provider (native generateContent, direct and via OpenRouter)</li><li>Anthropic Messages skin now authenticates correctly through OpenRouter</li><li>ARM64 build</li></ul>]]></description>
       <enclosure url="https://github.com/abhishekbhakat/ScribeMiniCommunity/releases/download/2.3.0/ScribeMini-2.3.0-macOS-arm64.dmg"
                  type="application/octet-stream"

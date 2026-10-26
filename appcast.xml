@@ -5,6 +5,18 @@
     <description>Most recent changes for ScribeMini.</description>
     <language>en</language>
     <item>
+      <title>Version 2.3.0 (Build 5)</title>
+      <pubDate>Mon, 26 Oct 2026 12:00:00 +0000</pubDate>
+      <sparkle:version>5</sparkle:version>
+      <sparkle:shortVersionString>2.3.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<ul><li>Gemini AI provider (native generateContent, direct and via OpenRouter)</li><li>Anthropic Messages skin now authenticates correctly through OpenRouter</li><li>ARM64 build</li></ul>]]></description>
+      <enclosure url="https://github.com/abhishekbhakat/ScribeMiniCommunity/releases/download/2.3.0/ScribeMini-2.3.0-macOS-arm64.dmg"
+                 type="application/octet-stream"
+                 sparkle:edSignature="uTHP+P3RpHTPi+9kiVIC566pYV8lvK6e4it3LYXeAzMrqJfW6TD2tSVE3+vcBRMc0Hl714KDxfcniil4hdmSAw=="
+                 length="2331299" />
+    </item>
+    <item>
       <title>Version 2.2.0 (Build 4)</title>
       <pubDate>Sun, 16 Aug 2026 16:11:51 +0530</pubDate>
       <sparkle:version>4</sparkle:version>
